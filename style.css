@@ -1,0 +1,55 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('thatsnotgoodenough.jpeg');
+    background-size: 350px auto;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#button_old {
+    border-radius: 16px;
+    padding: 2rem;
+    border: 2px solid black;
+    align-self: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #8e1902;
+    border-radius: 15px;
+    box-shadow: 0 12px #999;
+    border: none;
+
+    font-size: 7rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: #8e3e3e
+}
+
+button:active {
+    background-color: #8e4a3e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#music-button {
+    background-color: #8e1902;
+    padding: 7px 13px;
+    font-size: 4rem;
+}
+
+
