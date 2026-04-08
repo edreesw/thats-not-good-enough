@@ -9,7 +9,7 @@ function playAudio() {
 
 function toggleMusic() {
     const audioElement = document.querySelector("#music");
-    audioElement.volume = .4; 
+    audioElement.volume = .5; 
     if(audioElement.paused) {
         audioElement.play(); 
     } else {
